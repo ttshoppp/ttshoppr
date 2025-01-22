@@ -269,7 +269,7 @@ html.w-mod-touch * {
   background-color: #3898ec;
   border: 0;
   border-radius: 0;
-  padding: 9px 15px;
+  padding: 20px 15px;
   text-decoration: none;
   display: inline-block;
 }
@@ -2097,7 +2097,7 @@ textarea.w-input, textarea.w-select {
   border-radius: 8px;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-weight: 700;
-  magrgin-top: 15px
+  magrgin-top: 20px
 }
 
 .section-4 {
@@ -2171,8 +2171,9 @@ textarea.w-input, textarea.w-select {
     background-color: #e41f3d;
     background-image: linear-gradient(53deg, #4dd0e1, #e32d85 97%, #fff 100%, #f2f2f2);
     border-radius: 6px;
-    font-family: Varela, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-weight: 700;
+    margin-top: 20px
   }
 
   .section-4 {
