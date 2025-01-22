@@ -2128,7 +2128,7 @@ textarea.w-input, textarea.w-select {
     padding-left: 10px;
     padding-right: 10px;
     font-family: Montserrat, sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 20px;
   }
@@ -2153,8 +2153,8 @@ textarea.w-input, textarea.w-select {
     align-items: center;
     margin-top: 0;
     margin-bottom: 14px;
-    font-family: Varela, sans-serif;
-    font-size: 14px;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
     font-weight: 700;
     display: flex;
   }
