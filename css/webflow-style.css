@@ -2123,7 +2123,7 @@ textarea.w-input, textarea.w-select {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     display: flex;
   }
 
