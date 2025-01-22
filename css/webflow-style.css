@@ -2055,7 +2055,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .section {
-  margin-top: 50px
+  margin-top: 50px;
   justify-content: center;
   align-items: flex-start;
   display: flex;
@@ -2071,6 +2071,8 @@ textarea.w-input, textarea.w-select {
   font-weight: 700;
   line-height: 44px;
   display: flex;
+  margin-bottom: 15px;
+  padding: 15px 10px;
 }
 
 .section-3 {
@@ -2095,6 +2097,7 @@ textarea.w-input, textarea.w-select {
   border-radius: 8px;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-weight: 700;
+  magrgin-top: 15px
 }
 
 .section-4 {
@@ -2107,7 +2110,7 @@ textarea.w-input, textarea.w-select {
 
 @media screen and (max-width: 767px) {
   .section {
-    
+    margin-top: 25px
     flex-flow: column;
     justify-content: center;
     align-items: center;
@@ -2159,6 +2162,7 @@ textarea.w-input, textarea.w-select {
     font-size: 16px;
     font-weight: 700;
     display: flex;
+    padding: 10px 0px
   }
 
   .button {
