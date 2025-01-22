@@ -2065,7 +2065,7 @@ textarea.w-input, textarea.w-select {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: Montserrat;
+  font-family: Montserrat, Arial, Helvetica Neue, Helvetica, sans-serif;
   font-size: 25px;
   font-weight: 700;
   line-height: 44px;
@@ -2083,7 +2083,7 @@ textarea.w-input, textarea.w-select {
   color: #000;
   margin-top: 7.5px;
   margin-bottom: 7.5px;
-  font-family: Varela;
+  font-family: Varela, Arial, Helvetica Neue, Helvetica, sans-serif;
   font-weight: 700;
 }
 
