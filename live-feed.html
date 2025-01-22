@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Feed</title>
+
+    <!-- Live Feed Specific Styles -->
+    <style>
+        body {
+            margin: 0;
+            font-family: "Montserrat", sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .live-feed-wrapper {
+            width: 300px;
+            background: linear-gradient(316deg, #e32d85, #4dd0e1);
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+            padding: 15px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        .live-feed-header {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .live-feed-message {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .live-feed-name {
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Live Feed Component -->
+    <div class="live-feed-wrapper" id="live-feed">
+        <div class="live-feed-header">Live Feed</div>
+        <div class="live-feed-message">
+            <span class="live-feed-name">Sophia</span> just claimed a $500 TT Shop Credit!
+        </div>
+    </div>
+
+    <!-- JavaScript for Live Feed -->
+    <script>
+        const liveFeed = document.getElementById('live-feed');
+        const names = ["Sophia", "Emma", "Olivia", "Mia", "Ava", "Isabella", "Liam", "Noah", "Oliver", "Lucas"];
+
+        function updateLiveFeed() {
+            const randomName = names[Math.floor(Math.random() * names.length)];
+            const message = `<span class='live-feed-name'>${randomName}</span> just claimed a $500 TT Shop Credit!`;
+            liveFeed.querySelector('.live-feed-message').innerHTML = message;
+        }
+
+        // Trigger Live Feed Updates
+        updateLiveFeed();
+        setInterval(updateLiveFeed, Math.random() * (30000 - 10000) + 10000);
+    </script>
+</body>
+</html>
