@@ -2097,7 +2097,7 @@ textarea.w-input, textarea.w-select {
   border-radius: 8px;
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
   font-weight: 700;
-  magrgin-top: 20px
+  magrgin-top: 20px;
 }
 
 .section-4 {
@@ -2173,7 +2173,7 @@ textarea.w-input, textarea.w-select {
     border-radius: 6px;
     font-family: Montserrat, sans-serif;
     font-weight: 700;
-    margin-top: 20px
+    margin-top: 20px;
   }
 
   .section-4 {
