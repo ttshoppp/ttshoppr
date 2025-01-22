@@ -2055,6 +2055,7 @@ textarea.w-input, textarea.w-select {
 }
 
 .section {
+  margin-top: 50px
   justify-content: center;
   align-items: flex-start;
   display: flex;
@@ -2106,6 +2107,7 @@ textarea.w-input, textarea.w-select {
 
 @media screen and (max-width: 767px) {
   .section {
+    
     flex-flow: column;
     justify-content: center;
     align-items: center;
