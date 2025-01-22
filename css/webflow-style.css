@@ -93,7 +93,7 @@ pre {
 }
 
 code, kbd, pre, samp {
-  font-family: monospace;
+  font-family: ospace;
   font-size: 1em;
 }
 
@@ -2065,7 +2065,7 @@ textarea.w-input, textarea.w-select {
   text-align: center;
   justify-content: center;
   align-items: center;
-  font-family: Montserrat, sans-serif;
+  font-family: Montserrat;
   font-size: 25px;
   font-weight: 700;
   line-height: 44px;
@@ -2083,7 +2083,7 @@ textarea.w-input, textarea.w-select {
   color: #000;
   margin-top: 7.5px;
   margin-bottom: 7.5px;
-  font-family: Varela, sans-serif;
+  font-family: Varela;
   font-weight: 700;
 }
 
